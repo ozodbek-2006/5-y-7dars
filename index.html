@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="TodoList container">
+        <h1 class="todoList_title">TODO APP</h1>
+        <div class="inputs">
+            <input type="text" id="task-input" placeholder="Your current text for the Todo List" class="input">
+            <input type="datetime-local" id="datetimeInput" class="input2">
+        </div>
+        <div class="addBtn_AllFilter">
+            <button class="add_btn" id="add-task-btn">Add Task</button>
+            <select class="filterTasks">
+                <option value="" class="option">All</option>
+                <option value="" class="option">---</option>
+                <option value="" class="option">---</option>
+            </select>
+        </div>
+        <ul class="box" id="task-list">
+        </ul>
+    </div>
+
+
+    <script src="./js/js.js"></script>
+</body>
+
+</html>
